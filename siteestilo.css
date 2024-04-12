@@ -1,0 +1,132 @@
+.corpo {
+    background-color: #222121;
+    height: fit-content;
+}
+header{
+    background-color: #222121;
+    border: 50px; color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#coluna1 {
+    float:left;
+    width: 300px;
+    padding:10px;
+    background:#222121;
+    border-style:solid; color: red;
+    margin-left: 5px; 
+    margin-top: 5px;
+    display: flex;
+    justify-content:center;
+}
+#coluna2 {
+    float:left;
+    width:420px;
+    padding:10px;
+    background:#222121;
+    border-style:solid; color: red;
+    margin-left: 5px; 
+    display: flex;
+    justify-content: center;
+}
+#coluna3 {
+    float:right;
+    width:520px;
+    padding:10px;
+    background:#222121;
+    border-style:solid; color: red;
+    margin-right: 5px; 
+    display: flex;
+    justify-content: center;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+    border-style: solid;
+    color: beige;
+    background-color: rgb(104, 2, 2);
+}
+#formf1 {
+    text-align: center;
+    justify-content: center;
+}
+#formf2 {
+    text-align: center;
+}
+#ultimo {
+    padding-left: 200px;
+}
+footer {
+    clear:both;
+    padding:10px;
+    background:#222121;
+}
+p {
+    padding: 10px;
+    text-align: justify;
+    color: beige;
+}
+h4 {
+    color: beige;
+    text-align: center;
+}
+#h1 {
+    color: rgb(5, 5, 5);
+    border-style: solid;
+    padding: 20px;
+    background-color: rgb(190, 65, 49);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    width: 250px;
+    height: 250px;
+    border: 10px;
+    color: red;
+    border-style: solid;
+}
+.sobre {
+    display: flex;
+    justify-content:left;
+    align-items:flex-start;
+}
+.sobre2 {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#oficial {
+    display: flex;
+    justify-content: space-around;
+}
+.bolinha {
+    color: beige;
+}
+h1 {
+    padding-left: 40px;
+}
+h4 {
+    padding-left: 10px;
+}
+nav {
+    margin-right: 25px;
+}
+nav ul {
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li {
+    margin: 5px;
+}
+ul li a {
+    text-decoration: none;
+    color: red;
+}
+ul li a:hover {
+    color: cornsilk;
+}
